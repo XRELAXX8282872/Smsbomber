@@ -1,0 +1,31 @@
+{
+  "name": "sms-bomber",
+  "version": "1.0.0",
+  "description": "Fast Sms Bomber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liiuqa/Smsbomber.git"
+  },
+  "keywords": [
+    "smsbomber",
+    "sms",
+    "bomber"
+  ],
+  "author": "Liuqa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liiuqa/Smsbomber/issues"
+  },
+  "homepage": "https://github.com/liiuqa/Smsbomber#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "axios": "^1.3.5",
+    "chalk": "^4.1.2",
+    "socks-proxy-agent": "^7.0.0"
+  }
+}

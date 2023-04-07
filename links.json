@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Kigili",
+        "uri": "https://www.kigili.com/users/registration/",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email": "{email}",
+            "phone": "0{phone}",
+            "password": "JFQSDHBKJKDLQSHKDJSQHJKDJSKQ",
+            "confirm": "true",
+            "kvkk": "true",
+            "next": ""
+        }
+    },
+    {
+        "name": "KahveDunyasi",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://core.kahvedunyasi.com/api/users/sms/send",
+        "form": {
+            "mobile_number": "{phone}",
+            "token_type": "register_token"
+        }
+    },
+    {
+        "name": "naosstars",
+        "uri": "https://shop.naosstars.com/users/register",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "password": "CB2sqdkhqsdqs",
+            "date_of_birth": "1999-01-01",
+            "phone": "0{phone}",
+            "gender": "male",
+            "kvkk":"true",
+            "contact": "true",
+            "confirm": "true"
+        }
+    },
+    {
+        "name": "wmf",
+        "uri": "https://www.wmf.com.tr/users/register/",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email_allowed": "true",
+            "confirm": "true",
+            "date_of_birth":"1999-03-01",
+            "gender": "male",
+            "password": "CB2sqdkhqsdqs",
+            "phone": "0{phone}" 
+        }
+    },
+    {
+        "name": "bim",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://bim.veesk.net:443/service/v1.0/account/login",
+        "form": {
+            "phone": "0{phone}"
+        }
+    },
+    {
+        "name": "Şok",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://api.ceptesok.com:443/api/users/sendsms",
+        "form": {
+            "mobile_number": "{phone}",
+            "token_type": "register_token"
+        }
+    },
+    {
+        "name": "migros",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://rest.migros.com.tr:443/sanalmarket/users/login/otp",
+        "form": {
+            "phoneNumber": "{phone}"
+        }
+    },
+    {
+        "name": "a101",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.a101.com.tr:443/users/otp-login/",
+        "form": {
+            "phone": "0{phone}",
+            "next": "/a101-kapida"
+        }
+    },
+    {
+        "name": "englishhome",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.englishhome.com:443/enh_app/users/registration/",
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email_allowed": "true",
+            "sms_allowed": "true",
+            "tom_pay_allowed": "true",
+            "confirm": "true",
+            "password": "CB2sqdkhqsdqs",
+            "phone": "0{phone}" 
+        }   
+    },
+    {
+        "name": "sakasu",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.sakasu.com.tr:443/app/api_register/step1",
+        "form": {
+            "phone": "0{phone}"
+        }
+    }
+]
